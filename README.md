@@ -1,8 +1,8 @@
 # easy-flowable
 
 #### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-easy-flowable 是基于flowable 6.7.2框架开发的简易api，方便使用审批流的学习查询成本，可以更简便的利用代码进行flowable审批流的操作
+
+### easy-flowable 是基于flowable 6.7.2框架开发的简易api，方便使用审批流的学习查询成本，可以更简便的利用代码进行flowable审批流的操作
 
 #### 软件架构
 - flowable-spring-boot-starter
