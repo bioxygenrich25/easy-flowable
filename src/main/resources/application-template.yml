@@ -1,0 +1,29 @@
+server:
+  port: 8088
+
+flowable:
+  idm:
+    app:
+      admin:
+        # 登录的用户名
+        user-id: admin
+        # 登录的密码
+        password: admin
+        # 用户的名字
+        first-name: test
+        last-name: root
+spring:
+  application:
+    name: easy-flowable
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  # mysql连接信息
+  datasource:
+    # mysql8之后
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/flowable?useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&useSSL=false&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true
+    username: root
+    password: admin
+
+
