@@ -6,7 +6,7 @@
     <groupId>com.ns</groupId>
     <artifactId>easy-flowable</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.1</version>
+    <version>0.0.2.beta</version>
     <name>easy-flowable</name>
     <properties>
         <java.version>1.8</java.version>
